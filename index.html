@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Banking Dapp</title>
+</head>
+
+
+<body>
+    <header><img src="./Icones/header.png" width="1830px"></header>
+    <br>
+    <div class="conectar_btn"><button id="conectar">Conectar Carteira</button></div>
+    <p id="saldo"></p>
+    <div class="grifo">
+    <h2 id="end_grifo" class="enderecos"></h2>
+    <div class="botoesgrifo">
+    <img src="./Icones/grifo.png" alt="some text" width=80px height=80>
+    <input type="number" step="1" placeholder="Defina a quantidade:" id="qnt_grifo">
+    <button id="depositar_grifo" class="depositar">Depositar</button>
+    <button id="sacar_grifo" class="sacar">Sacar</button>
+    <button id="saldo_grifo" class="saldo">Saldo</button></div></div>
+    <br>
+    <div class="xarada">
+    <h2 id="end_xarada" class="enderecos"></h2>
+    <div class="botoesxarada">
+    <img src="./Icones/xarada.png" alt="some text" width=80 height=80>
+    <input type="number" step="1" placeholder="Defina a quantidade:" id="qnt_xarada">
+    <button id="depositar_xarada" class="depositar">Depositar</button>
+    <button id="sacar_xarada" class="sacar">Sacar</button>
+    <button id="saldo_xarada" class="saldo">Saldo</button></div></div>
+    <br>
+    <div class="zangada">
+    <h2 id="end_zangada" class="enderecos"></h2>
+    <div class="botoeszangada">
+    <img src="./Icones/zangada.png" alt="some text" width=80 height=80>
+    <input type="number" step="1" placeholder="Defina a quantidade:" id="qnt_zangada">
+    <button id="depositar_zangada" class="depositar">Depositar</button>
+    <button id="sacar_zangada" class="sacar">Sacar</button>
+    <button id="saldo_zangada" class="saldo">Saldo</button></div></div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.5/web3.min.js"
+        integrity="sha512-/T7YwzOsNeoNkuTfYKXn3CrJCGc5cnC8T4QW46Hy+3Xjdjrxzokmbx8M8Xavjq1K7dN4958kIRGy4J03VRIlSg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
